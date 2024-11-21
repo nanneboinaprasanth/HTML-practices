@@ -1,0 +1,37 @@
+body{
+    
+    font-family: initial;
+    
+}
+
+
+h2,form{
+    text-align: center;
+} 
+
+div{
+    background-color: bisque;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 9px;
+    
+    
+}          
+input,checkbox,select{
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.button{
+     background-color: green;
+     font-size: large;
+}
+.button:hover{
+    color: white;
+    background-color: orange;
+}
+legend{
+    text-align: center;
+    color: chocolate;
+    font-size: xx-large;
+    }

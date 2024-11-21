@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Navigation bar</title>
+</head>
+<style>
+    body{
+        background-color: skyblue;
+        margin: 0%;
+    }
+    
+    ul{
+        list-style-type: none;
+     background-color: brown;
+     overflow: hidden;
+     height: 120px;
+     margin: 0%;
+    }
+    li{
+        float: left;
+        text-align: center;
+        padding: 10px;
+        margin: 30px;
+
+    }
+    
+    
+    nav a {
+        display: block;
+        color: white;
+        text-align: left;
+        padding: 16px;
+        text-decoration: none;
+        border-radius: 20px;
+        box-shadow: oldlace;
+    }
+    button{
+        float: right;
+        padding: 19px;
+        margin: 36px;
+        align-items: center;
+        border-radius: 30px;
+       
+    }   
+     button:hover{
+        background-color: skyblue;
+        color: white;
+     }
+     select{
+         padding: 8px;
+         margin: 8px;
+         background-color: brown;
+         color: white;
+         font-size: medium;
+         border-color: brown;
+     }
+     a:hover{
+        background-color: black;
+        color: white;
+     }
+    .image{
+        float: left;
+        display: flex;
+        border-radius: 0px;
+        margin: auto;
+        padding: 0px;
+        box-shadow: 10px;        
+    }
+    footer{
+        position: absolute;
+        bottom: 0px;
+        background-color: brown;
+        width: 100%;
+        text-align-last: center;
+        
+    }
+    .active{
+        background-color: orange;
+    }
+    
+</style>
+<body>
+    <nav>
+     <ul>
+        <li class="image"><img src="https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?auto=compress&cs=tin600ysrgb&w=" alt="animal" title="rabbit image" height="120px" width="100px">
+        </li>
+        <li class="active"><a href="#HOME">HOME</a></li>
+        <li>
+            <select>
+                <option value="Pages">Pages</option>
+                <option value="About us">About us</option>
+                <option value="Our team">Our team</option>
+            </select>
+        
+        </li>
+        <li><a href="#HOME">Portfolio</a></li>
+        <li><a href="#HOME"> Services</a></li>
+        <li><a href="#HOME">Blog</a></li>
+        <li><a href="#HOME">Contact us</a></li>
+        <button>Quote</button>
+     </ul>
+     </nav>
+<footer>
+    <h4> contact us</h4>
+    
+</footer>
+
+</body>
+</html>

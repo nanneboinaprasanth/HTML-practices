@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ .container{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    left: 46%;
+    background-color: grey;
+    color: white;
+    border: none;
+    font-size: large;
+}
+.container:hover{
+    background-color: red;
+}
+header{
+    background: linear-gradient(45deg,teal,lightseagreen);
+    padding: 40px;
+}
+header h2{
+    font-size: x-large;
+    text-align: center;
+    color: white;
+    
+}
+.summary{
+    background-color: antiquewhite;
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    background-color: grey;
+    padding: 25px;
+    text-align: center;
+    color: wheat;
+}
+nav a{
+    color: lightgrey;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav a:hover{
+    background-color: red;
+}
+section h1{
+    text-align: center;
+    margin: 10px;
+    font-size: x-large;
+}
+section p{
+    text-align: center;
+    margin: 20px;
+}
+.places{
+    text-align: center;
+    
+    background-color: aqua;
+}
+
+.places img{
+    margin: 0%;
+    padding: 0%;
+    display: line block;
+    
+    left: 20px;
+}
+.packages figcaption{
+    text-align: center;
+    margin: 10px;
+    background-color: darkcyan;
+
+}
+.packages figure {
+                box-shadow: 0 0 10px black;
+                width: 300px;
+                display: inline block;
+                float: inline-start;
+                margin: 4%;
+                padding: 3px;
+                background-color: darkcyan;
+}             
+.packages figure img{
+    width: 100%;
+    background-color: darkcyan;
+
+
+}
+.packages figure figcaption{
+    font-size: larger;
+}
+.packages figure  p{
+    font-size: smaller ;
+}
+.packages{
+    background-color: cyan;
+}
+footer.main{
+    color: sienna;
+    text-align: center;
+    background-color: beige;
+}
